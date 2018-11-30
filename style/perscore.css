@@ -1,0 +1,89 @@
+.perscore-content{
+  background: #fff;
+  overflow-y: auto;
+  left: 0;right: 0;
+  width: auto;height: auto;
+  margin-top: 50px;
+}
+.perscore-banner{
+  position: relative;
+  width: 100%;
+}
+.perscore-banner span{
+  font-size: 16px;
+  color: white;
+  /*这三行用来居中*/
+  position: absolute;
+  top: 50%;left: 50%;
+  transform: translate(-50%, -50%);
+}
+.perscore-item{
+  color: #666;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  background: white;
+  position: relative;
+  display: block;
+  margin-top: -5px;
+}
+.perscore-item img{
+  width: 32px;
+  height: 32px;
+}
+.perscore-item span{
+  position: absolute;
+  top: 18px;left: 53px;
+}
+.perscore-item i{
+  font-size: 24px;
+  color: #888;
+  position: absolute;
+  right: 13px;top: 20px;
+}
+.scoreregu{
+  position:relative ;
+  background: rgb(238,238,238);
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.scoreregu span{
+  font-size: 14px;
+  color: #222;
+  margin-left: 10px;
+}
+.scoreregu img{
+  position: absolute;
+  right: 10px;top: 9px;
+}
+.perscore-list{
+  padding: 1px 0;
+}
+.perscore-item1{
+  border: 1px solid #ddd;
+  background: white;
+  color: #444;
+  font-size: 14px;
+  position: relative;
+  display: block;
+  height: 34px;
+  margin: -1px;
+  padding: 8px;
+}
+.perscore-icon1,.perscore-icon2{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.perscore-icon1{
+  color: rgb(153,153,153);
+}
+.perscore-icon2{
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  right: 11px;
+}

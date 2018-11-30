@@ -1,0 +1,106 @@
+.index-container {
+  padding-top: 50px;
+}
+/*顶部*/
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  height: 50px;
+  padding: 0 23px;
+  background: #c50206;
+  display: flex;
+  justify-content: space-between;
+}
+.header a {
+  margin-right: -15px;
+  align-self: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+.header-img {
+  margin-left: -15px;
+  margin-top: 6px;
+  width: 154px;
+  height: 38px;
+}
+/*轮播图*/
+.slider{
+  height: 4.2rem;
+}
+.wrap{
+  position: relative;
+  height: 189px;
+}
+.t1{
+  position: absolute;
+  bottom: 0;left: 0;right: 0;
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  background: rgba(0,0,0,.4);
+  padding: 4px 0 4px 4px;
+}
+.tu1{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/*主菜单*/
+.main-menu{
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 4rem;
+  background: url("../src/assets/bt_bg.png") no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+.main-menu .row1,.row2{display: flex;}
+.main-menu .row1{
+  margin-bottom: -23px;
+  padding-bottom: -2px;
+}
+.main-menu .row2{
+  margin-bottom: -16px;
+  padding-bottom: -2px;
+}
+.main-menu .row1 .menu-item{
+  flex: 1;
+  text-align: center;
+}
+.main-menu .row1 img{
+  width: 1rem;
+}
+.main-menu .row2 .menu-item{
+  flex: 1;
+  text-align: center;
+}
+.main-menu .row2 img{
+  width: 1rem;
+}
+/*主菜单结束*/
+.banner img{
+  margin-top: -3px;
+  display: block;
+}
+/*下菜单*/
+.footer-menu{
+  margin-bottom: -5px;
+  display: flex;
+  height: 3.3rem;
+  background: url("../src/assets/tese.png") no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+.footer-menu .menu-left{flex: 1;}
+.footer-menu .menu-right{flex:2;}
+.footer-menu .menu-right .row{
+  height: 50%;display: flex;
+}
+.footer-menu .menu-right .row a{flex:2;
+  height: 100%;}

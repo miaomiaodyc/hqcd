@@ -1,0 +1,39 @@
+
+.mint-header a{
+  color:#fff;
+  font-size: 17px;
+  font-weight: 300;
+}
+.perinfor-content{
+  background: #fff;
+  overflow-y: auto;
+  position: absolute;
+  top: 49px;
+  left: 0; right: 0;bottom: 0;
+  width: auto;height: auto;
+}
+.perinfor-list{
+  position: relative;
+  padding-left: 0;
+}
+.perinfor-list .info-item{
+  height: 50px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #223;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+  margin: -1px;
+  padding: 12px;
+}
+.info-item img{
+   width: 30px;
+   height: 30px;
+  margin-top: -3px;
+ }
+.info-item span:nth-child(2),img{
+  position: absolute;
+  right: 14px;
+}
+

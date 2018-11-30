@@ -1,0 +1,51 @@
+.scroll-content{
+  background: #fff;
+  overflow-y: auto;
+  position: absolute;
+  top: 50px;
+  left: 0;right: 0;bottom: 0;
+  /*overflow: hidden;*/
+  margin-top: -2px;
+  padding-top: 2px;
+  margin-bottom: -1px;
+  width: auto;height: auto;
+  box-sizing: border-box;
+  display: block;
+}
+.con-list{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.spai-item{
+  width: 50%;
+  color: #666;
+  text-decoration: none;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin: -1px;padding: 16px;
+  font-size: 13px;
+}
+.sptu img{
+  display: block;
+  width: 100%;
+}
+.spline{
+  height: 37px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.spai-tail{
+  padding-top: 7px;
+  text-align: center;
+}
+.spai-tail span{
+  font-size: 14px;
+  color: #666;
+}

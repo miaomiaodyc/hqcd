@@ -1,0 +1,61 @@
+
+.mint-header a{
+  color:#fff;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.modiperin-content{
+  background: #fff;
+  overflow-y: auto;
+  position: absolute;
+  top: 49px;
+  left: 0; right: 0;bottom: 0;
+  width: auto;height: auto;
+}
+.modiperin-list{
+  position: relative;
+  padding-left: 0;
+}
+.modiperin-list .info-item{
+  height: 50px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #223;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+  margin: -1px;
+  padding: 12px;
+}
+.info-item img{
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+}
+.info-item span:nth-child(2),img{
+  position: absolute;
+  right: 14px;
+}
+.info-item input{
+  height: 34px;
+  text-align: right;
+  padding-top: -3px;
+  font-size: 14px;
+  color: #111;
+}
+.sexopti{
+  display: flex;
+  margin-top: -22px;
+  width: 76px;
+}
+.sexopti i{
+  margin-top: 7px;
+}
+input[type=radio][name=sex]{
+  margin-left: 5px;margin-right: 5px;
+}
+input[type=radio]{
+  margin: 0;
+  line-height: normal;
+}
